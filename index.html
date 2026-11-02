@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kubernetes Heroes</title>
+<meta name="description" content="Practice questions and hands-on Learn chapters for ten Kubernetes topics.">
+<style>
+  :root { --bg:#f7f7f5; --fg:#1d1f23; --muted:#5b616b; --card:#ffffff; --line:#d9dce1; --accent:#2f6fdb; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg:#15171b; --fg:#e8eaee; --muted:#9aa1ab; --card:#1d2026; --line:#2e333c; --accent:#7aa7ff; }
+  }
+  :root[data-theme="dark"] { --bg:#15171b; --fg:#e8eaee; --muted:#9aa1ab; --card:#1d2026; --line:#2e333c; --accent:#7aa7ff; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  p.lead { color: var(--muted); margin: 0 0 32px; }
+  .card { display:block; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:20px; margin-bottom:16px; color:inherit; text-decoration:none; }
+  .card:hover { border-color: var(--accent); }
+  .card h2 { font-size:1.15rem; margin:0 0 6px; color:var(--accent); }
+  .card p { margin:0; color:var(--muted); }
+  footer { color:var(--muted); font-size:.875rem; margin-top:32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kubernetes Heroes</h1>
+  <p class="lead">Ten topics, one hero each. Test yourself, or work through the hands-on chapters in a simulated terminal.</p>
+
+  <a class="card" href="quiz/index.html">
+    <h2>Practice</h2>
+    <p>318 multiple-choice questions across the ten heroes. Pick a hero or mix them, choose easy, medium or hard, and review each answer.</p>
+  </a>
+
+  <a class="card" href="quiz/index.html">
+    <h2>Learn</h2>
+    <p>Story chapters with a simulated shell and kubectl. Each hero is three chapters. Click Learn in the quiz to start with Get started.</p>
+  </a>
+
+  <footer>Runs in your browser. Progress is saved only on this device.</footer>
+</main>
+</body>
+</html>
